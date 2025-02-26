@@ -1,22 +1,34 @@
 # Twitter Coronavirus Analysis
 
-This project processes a large Twitter dataset to capture tweet counts related to COVID-19 hashtags across different languages and countries. Using MapReduce techniques, multiple stages of data aggregation were performed:
+This project processes a large Twitter dataset to capture tweet counts related to COVID-19 hashtags across different languages and countries. The following images summarize the results:
 
-1. **Mapping (`map.py`):**  
-   This script reads input zipfiles containing Twitter data, extracts tweet metadata, and tallies counts for selected hashtags by language and country.
+### Bar Graphs
+- **Language Data for #coronavirus:**  
+  ![Combined Lang #coronavirus](combined_lang_#coronavirus.png)
 
-2. **Reducing (`reduce.py`):**  
-   The reduce phase merges individual mapping outputs into two consolidated JSON files (`combined.lang` and `combined.country`), aggregating tweet counts per hashtag for languages and countries.
+- **Country Data for #coronavirus:**  
+  ![Combined Country #coronavirus](combined_country_#coronavirus.png)
 
-3. **Visualization (`visualize.py`):**  
-   Visualization scripts were used to generate bar graphs for the top 10 key counts (e.g., `#coronavirus` and `#코로나바이러스`), producing the following images:
-   - `combined_lang_#coronavirus.png`
-   - `combined_country_#coronavirus.png`
-   - `combined_lang_#코로나바이러스.png`
-   - `combined_country_#코로나바이러스.png`
-   
-4. **Alternative Reduce (`alternative_reduce.py`):**  
-   This script constructs a line plot that shows daily tweet counts over the year for specified hashtags, aggregating mapping outputs on a per-day basis.
+- **Language Data for #코로나바이러스:**  
+  ![Combined Lang #코로나바이러스](combined_lang_#코로나바이러스.png)
 
-These visualizations provide insights into the geographic and linguistic trends in COVID-19 related tweets, which can be valuable in understanding public health communications on social media. 
+- **Country Data for #코로나바이러스:**  
+  ![Combined Country #코로나바이러스](combined_country_#코로나바이러스.png)
+
+### Alternative Reduce Plot
+
+The alternative reduce script generated a line plot that shows the daily tweet counts for selected hashtags over the course of a year. This plot can be found below:
+
+![Alternative Reduce Plot](alt_reduce.png)
+
+---
+
+## Project Overview
+
+(Your brief explanation about how the project works, the data processing, mapping, reducing, and visualization.)
+
+*Note:* If the file names contain special characters (like `#`), GitHub might not render them properly in the URL. In that case, you might consider renaming the images to something like `combined_lang_coronavirus.png` (and then updating the references here) or encoding the URL. For example:
+
+```markdown
+![Combined Lang #coronavirus](combined_lang_%23coronavirus.png)
 
