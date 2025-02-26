@@ -4,23 +4,22 @@ This project processes a large Twitter dataset to capture tweet counts related t
 
 ### Bar Graphs
 - **Language Data for #coronavirus:**  
-  ![Combined Lang #coronavirus](combined_lang_#coronavirus.png)
+  ![Combined Lang #coronavirus]("combined_lang_#coronavirus.png")
 
 - **Country Data for #coronavirus:**  
-  ![Combined Country #coronavirus](combined_country_#coronavirus.png)
+  ![Combined Country #coronavirus]("combined_country_#coronavirus.png")
 
 - **Language Data for #코로나바이러스:**  
-  ![Combined Lang #코로나바이러스](combined_lang_#코로나바이러스.png)
+  ![Combined Lang #코로나바이러스]("combined_lang_#코로나바이러스.png")
 
 - **Country Data for #코로나바이러스:**  
-  ![Combined Country #코로나바이러스](combined_country_#코로나바이러스.png)
+  ![Combined Country #코로나바이러스]("combined_country_#코로나바이러스.png")
 
 ### Alternative Reduce Plot
 
 The alternative reduce script generated a line plot that shows the daily tweet counts for selected hashtags over the course of a year. This plot can be found below:
 
-![Alternative Reduce Plot](alt_reduce.png)
-
+![Alternative Reduce Plot]("alt_reduce.png")
 ---
 
 ## Project Overview
