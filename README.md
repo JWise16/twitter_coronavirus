@@ -21,14 +21,7 @@ This project processes a large Twitter dataset to capture tweet counts related t
 The alternative reduce script generated a line plot that shows the daily tweet counts for selected hashtags over the course of a year. This plot can be found below:
 
 <img src='alt_reduce.png' width=100%     />
----
 
-## Project Overview
-
-(Your brief explanation about how the project works, the data processing, mapping, reducing, and visualization.)
-
-*Note:* If the file names contain special characters (like `#`), GitHub might not render them properly in the URL. In that case, you might consider renaming the images to something like `combined_lang_coronavirus.png` (and then updating the references here) or encoding the URL. For example:
 
 ```markdown
-![Combined Lang #coronavirus](combined_lang_%23coronavirus.png)
 
